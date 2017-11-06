@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1508983944 source:c:\users\capta\documents\avr\countdowntimer1\fuse.c
+	<avr/io.h>
+
+1509616231 source:c:\users\capta\documents\avr\countdowntimer1\main.c
+	<avr/io.h>
+	<util/delay.h>
+	<avr/interrupt.h>
+	"USART.h"
+	"timerSkeleton.h"
+	"clockfunc.c"
+	"clockSerialHelp.c"
+
+1509464307 c:\users\capta\documents\avr\countdowntimer1\timerskeleton.h
+	<avr/io.h>
+
+1509808491 c:\users\capta\documents\avr\countdowntimer1\clockfunc.c
+	"clockfunc.h"
+
+1509463075 c:\users\capta\documents\avr\libraries\usart\usart.h
+
+1509463833 c:\users\capta\documents\avr\countdowntimer1\serialhelp.c
+
+1509881837 c:\users\capta\documents\avr\countdowntimer1\clockserialhelp.c
+	"USART.h"
+
+1509808290 source:c:\users\capta\documents\avr\countdowntimer1\clockserialhelp.c
+	"clockSerialHelp.h"
+
+1509791252 c:\users\capta\documents\avr\countdowntimer1\clockserialhelp.h
+	"countDownTimer1.h"
+
+1509880947 c:\users\capta\documents\avr\countdowntimer1\countdowntimer1.h
+	<avr/io.h>
+	<util/delay.h>
+	<avr/interrupt.h>
+	<avr/power.h>
+	"USART.h"
+
+1509880806 source:c:\users\capta\documents\avr\countdowntimer1\countdowntimer1.c
+	"countDownTimer1.h"
+	"clockfunc.c"
+	"clockSerialHelp.c"
+
+1509808543 c:\users\capta\documents\avr\countdowntimer1\clockfunc.h
+	"countDownTimer1.h"
+
+1458770340 source:c:\users\capta\documents\avr\libraries\usart\usart.c
+	<avr/io.h>
+	"USART.h"
+	<util/setbaud.h>
+
